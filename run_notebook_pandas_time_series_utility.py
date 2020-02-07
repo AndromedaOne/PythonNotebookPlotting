@@ -21,7 +21,7 @@ print(f"Date to view set to {today}")
 
 ### SET UP ENV OURPUT
 
-outdir = f"./data/plots"
+outdir = f"./plots"
 makedirs(outdir, exist_ok=True)
 
 output_html = join(outdir, "frc_plot_output.html")
